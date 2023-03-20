@@ -15,7 +15,7 @@ inputs:
   smalltalkCI-branch:
     description: 'Branch or tag to use from smalltalkCI repository'
     required: false
-    default: 'master'
+    default: 'solo'
 outputs:
   smalltalk-image:
     description: 'Smalltalk image selection'
