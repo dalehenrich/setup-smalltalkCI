@@ -13,7 +13,7 @@ const IS_WINDOWS = process.platform === 'win32'
 
 const INSTALLATION_DIRECTORY = path.join(os.homedir(), '.smalltalkCI')
 const DEFAULT_BRANCH = 'master'
-const DEFAULT_SOURCE = 'hpi-swa/smalltalkCI'
+const DEFAULT_SOURCE = 'dalehenrich/smalltalkCI'
 const LSB_FILE = '/etc/lsb-release'
 const UBUNTU_VERSION = getUbuntuVersion()
 const DEFAULT_64BIT_DEPS = 'libpulse0'

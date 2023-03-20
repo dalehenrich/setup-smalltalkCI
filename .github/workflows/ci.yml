@@ -13,11 +13,11 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        smalltalk: [ Squeak64-trunk, Squeak32-4.5 ]
-        os: [ macos-latest, windows-latest, ubuntu-latest ]
+        smalltalk: [ GemStone64-3.6.5 ]
+        os: [ ubuntu-20.04, macos-latest ]
     steps:
     - uses: actions/checkout@v3
-    - uses: hpi-swa/setup-smalltalkCI@v1
+    - uses: dalehenrich/setup-smalltalkCI@solo
       with:
         smalltalk-image: ${{ matrix.smalltalk }}
     - if: runner.os != 'Windows'

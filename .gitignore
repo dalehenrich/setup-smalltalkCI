@@ -2,6 +2,12 @@ node_modules/
 
 # Editors
 .vscode
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
 
 # Logs
 logs
