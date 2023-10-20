@@ -13,7 +13,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        smalltalk: [ GemStone64-3.6.5 ]
+        smalltalk: [ GemStone64-3.7.0 ]
         os: [ ubuntu-20.04, macos-latest ]
     steps:
     - uses: actions/checkout@v3
